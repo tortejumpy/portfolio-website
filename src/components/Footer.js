@@ -16,7 +16,7 @@ const Footer = () => (
       
     </div>
     <div className="footer-copy">
-      &copy; {new Date().getFullYear()} Jane Doe. Last updated: {new Date().toLocaleDateString()}
+      &copy; {new Date().getFullYear()} Harsh Pandey. Last updated: {new Date().toLocaleDateString()}
     </div>
   </footer>
 );

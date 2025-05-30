@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaReact, FaNodeJs, FaPython, FaDatabase, FaGithub, FaChartLine } from 'react-icons/fa';
 import { SiMongodb, SiExpress, SiTensorflow, SiPytorch } from 'react-icons/si';
+import { Link } from 'react-router-dom';
 import './Landing.css';
 
 // TODO: Replace with your real profile picture URL
@@ -45,8 +46,8 @@ const Landing = () => (
       "Building intelligent, scalable solutions at the intersection of web and data."
     </motion.p>
     <motion.div className="cta-buttons" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.1 }}>
-      <a href="/resume" className="cta-btn">View Resume</a>
-      <a href="/projects" className="cta-btn">Projects</a>
+      <Link to="/resume" className="cta-btn">View Resume</Link>
+      <Link to="/projects" className="cta-btn">Projects</Link>
     </motion.div>
     <motion.div className="tech-icons" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.3 }}>
       {techIcons.map((icon, i) => (
