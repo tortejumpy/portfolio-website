@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import './Resume.css';
+import { Link } from 'react-router-dom';
 
 const resumes = {
   fullstack: {
@@ -25,8 +26,8 @@ const Resume = () => {
     <motion.section className="resume-section" initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
       <h2>Resume</h2>
       <div className="resume-btns">
-        <a href={resumes.fullstack.url} download className="cta-btn">Download Full Stack Resume (PDF)</a>
-        <a href={resumes.datascience.url} download className="cta-btn">Download Data Science Resume (PDF)</a>
+        <Link to="/resume" className="cta-btn">View Resume</Link>
+        <Link to="/projects" className="cta-btn">Projects</Link>
       </div>
       <div className="resume-timeline">
         <h3>Experience</h3>
