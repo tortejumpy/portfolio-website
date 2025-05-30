@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import './Resume.css';
-import { Link } from 'react-router-dom';
 
 const resumes = {
   fullstack: {
@@ -18,7 +17,6 @@ const experience = [
   { year: '2025', role: 'Associate Developer Intern', org: 'Infotact Solutions' },
   { year: '2023', role: 'Front End Developer Intern', org: 'Varcons Technologies Pvt Ltd'},
   { year: '2022', role: 'Machine Learning Intern', org: 'Coincent' },
-  
 ];
 
 const Resume = () => {
@@ -26,8 +24,8 @@ const Resume = () => {
     <motion.section className="resume-section" initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
       <h2>Resume</h2>
       <div className="resume-btns">
-        <Link to="/resume" className="cta-btn">View Resume</Link>
-        <Link to="/projects" className="cta-btn">Projects</Link>
+        <a href={resumes.fullstack.url} download className="cta-btn">Download Full Stack Resume (PDF)</a>
+        <a href={resumes.datascience.url} download className="cta-btn">Download Data Science Resume (PDF)</a>
       </div>
       <div className="resume-timeline">
         <h3>Experience</h3>
