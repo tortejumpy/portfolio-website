@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  background: transparent;
+}
+
+body {
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  background: transparent;
+  color: #f5f6fa;
+  transition: background 0.6s cubic-bezier(0.4,0,0.2,1);
+}
+
+:root {
+  --primary: #1a2980;
+  --secondary: #232526;
+  --accent: #61dafb;
+  --glass: rgba(255,255,255,0.08);
+  --shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
