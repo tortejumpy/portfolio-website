@@ -8,7 +8,7 @@ const resumes = {
     label: 'Full Stack Resume',
   },
   datascience: {
-    url: '/Harsh Pandey_Data_Science (2).pdf',
+    url: '/Harsh_Pandey_Data_Analytics_Resume.pdf',
     label: 'Data Science Resume',
   },
 };
