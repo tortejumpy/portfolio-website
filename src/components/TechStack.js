@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaReact, FaNodeJs, FaPython, FaDatabase, FaDocker, FaGithub, FaChartBar } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaPython, FaDocker, FaGithub, FaChartBar } from 'react-icons/fa';
 import { SiMongodb, SiExpress, SiTensorflow, SiPytorch, SiJupyter, SiGooglecloud, SiNumpy, SiPandas, SiScikitlearn, SiTableau, SiGooglecolab, SiPlotly } from 'react-icons/si';
 import './TechStack.css';
 

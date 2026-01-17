@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaReact, FaNodeJs, FaPython, FaDatabase, FaDocker, FaGithub, FaRProject, FaChartBar, FaAws } from 'react-icons/fa';
-import { SiMongodb, SiExpress, SiJavascript, SiJest, SiFirebase, SiPostgresql, SiTailwindcss, SiBootstrap, SiNextdotjs, SiTensorflow, SiPytorch, SiNumpy, SiPandas, SiScikitlearn, SiTableau, SiGooglecolab, SiJupyter, SiGooglecloud, SiApacheairflow, SiApachekafka, SiApachespark } from 'react-icons/si';
+import { SiMongodb, SiExpress, SiJest, SiFirebase, SiPostgresql, SiTailwindcss, SiBootstrap, SiNextdotjs, SiTensorflow, SiPytorch, SiNumpy, SiPandas, SiScikitlearn, SiTableau, SiGooglecolab, SiJupyter, SiGooglecloud, SiApachespark } from 'react-icons/si';
 import './Skills.css';
 
 const fullStack = [
