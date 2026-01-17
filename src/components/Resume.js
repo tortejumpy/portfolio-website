@@ -7,8 +7,12 @@ const resumes = {
     url: '/Harsh Pandey_Full_Stack_Resume (1).pdf',
     label: 'Full Stack Resume',
   },
+  dataanalyst: {
+    url: '/Harsh Pandey Data Analyst Resume(-Exp).pdf',
+    label: 'Data Analyst Resume',
+  },
   datascience: {
-    url: '/Harsh_Pandey_Data_Analytics_Resume.pdf',
+    url: '/Harsh Pandey Data Scientist.pdf',
     label: 'Data Science Resume',
   },
 };
@@ -26,6 +30,7 @@ const Resume = () => {
       <div className="resume-btns">
         <a href={resumes.fullstack.url} download className="cta-btn">Download Full Stack Resume (PDF)</a>
         <a href={resumes.datascience.url} download className="cta-btn">Download Data Science Resume (PDF)</a>
+        <a href={resumes.dataanalyst.url} download className="cta-btn">Download Data Analyst Resume (PDF)</a>
       </div>
       <div className="resume-timeline">
         <h3>Experience</h3>

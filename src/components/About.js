@@ -15,6 +15,10 @@ const certificates = [
     name: 'JPMorgan Chase & Co Software	Engineering	Job	Simulation',
     file: '/software engineering j p morgan.pdf',
   },
+  {
+    name: 'Complete Generative AI Course With Langchain And Huggingface',
+    file: '/complete generative ai course with langchain and huggingface.pdf',
+  },
 ];
 
 const aboutData = {
@@ -25,7 +29,7 @@ const aboutData = {
   certificates,
   hobbies: ['Hackathons', 'Open Source Contribution', 'Creative Coding'],
   programming: ['Python', 'JavaScript', 'C++', 'SQL'],
-  techstacks: ['React', 'Node.js', 'MongoDB', 'TensorFlow', 'Scikit-learn', 'XGBoost', 'LightGBM', 'GitHub Actions', 'Power BI'],
+  techstacks: ['React', 'Pytorch', 'MongoDB', 'TensorFlow', 'Scikit-learn', 'Pandas', 'Numpy', 'LLM', 'Power BI'],
   email: 'harshpandey472@gmail.com',
   contact: '+91-866-018-2267',
 };

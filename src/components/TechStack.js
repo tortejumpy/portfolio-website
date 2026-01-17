@@ -32,7 +32,7 @@ const techs = [
 
 const TechStack = () => (
   <motion.section className="techstack-section" initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-    <h2>Tech Stack & Certifications</h2>
+    <h2>Tech Stack</h2>
     <div className="techstack-grid">
       {techs.map((t, i) => (
         <div className="techstack-item" key={i}>{t.icon}<span>{t.name}</span></div>
